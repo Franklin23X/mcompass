@@ -33,6 +33,7 @@ mcompass-639b762-LITE-WIFI.bin | 标准版, WiFi模式, 使用网页配置
 mcompass-639b762-GPS-WIFI.bin | GPS版, WiFi模式, 使用网页配置
 
 下载后解压文件得到**mcompass.bin**文件使用**Flash Download Tool**选择ESP32C3->USB下载固件.
+`下载固件前打开设备管理器检查通信端口，若无法找到端口请检查开关是否处于闭合状态`
 
 固件已将`bootload.bin, partitions.bin, firmware.bin, littlefs.bin`合并, 直接烧录到地址0x0即可, 其余参数保持默认, SPI SPEED:40Mhz;SPI MODE:DIO
 
